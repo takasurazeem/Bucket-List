@@ -14,6 +14,7 @@
 		F95D5EDE28756AEC001D9560 /* Bucket_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D5EDD28756AEC001D9560 /* Bucket_ListTests.swift */; };
 		F95D5EE828756AEC001D9560 /* Bucket_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D5EE728756AEC001D9560 /* Bucket_ListUITests.swift */; };
 		F95D5EEA28756AEC001D9560 /* Bucket_ListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D5EE928756AEC001D9560 /* Bucket_ListUITestsLaunchTests.swift */; };
+		F95D5EF928756B39001D9560 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D5EF828756B39001D9560 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F95D5EE328756AEC001D9560 /* Bucket ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bucket ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95D5EE728756AEC001D9560 /* Bucket_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket_ListUITests.swift; sourceTree = "<group>"; };
 		F95D5EE928756AEC001D9560 /* Bucket_ListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket_ListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F95D5EF828756B39001D9560 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,9 @@
 		F95D5ECB28756AEB001D9560 /* Bucket List */ = {
 			isa = PBXGroup;
 			children = (
-				F95D5ECC28756AEB001D9560 /* Bucket_ListApp.swift */,
+				F95D5EF728756B2D001D9560 /* Learning */,
 				F95D5ECE28756AEB001D9560 /* ContentView.swift */,
+				F95D5ECC28756AEB001D9560 /* Bucket_ListApp.swift */,
 				F95D5ED028756AEC001D9560 /* Assets.xcassets */,
 				F95D5ED228756AEC001D9560 /* Preview Content */,
 			);
@@ -125,6 +128,22 @@
 				F95D5EE928756AEC001D9560 /* Bucket_ListUITestsLaunchTests.swift */,
 			);
 			path = "Bucket ListUITests";
+			sourceTree = "<group>";
+		};
+		F95D5EF628756B25001D9560 /* Comparable */ = {
+			isa = PBXGroup;
+			children = (
+				F95D5EF828756B39001D9560 /* User.swift */,
+			);
+			path = Comparable;
+			sourceTree = "<group>";
+		};
+		F95D5EF728756B2D001D9560 /* Learning */ = {
+			isa = PBXGroup;
+			children = (
+				F95D5EF628756B25001D9560 /* Comparable */,
+			);
+			path = Learning;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +278,7 @@
 			files = (
 				F95D5ECF28756AEB001D9560 /* ContentView.swift in Sources */,
 				F95D5ECD28756AEB001D9560 /* Bucket_ListApp.swift in Sources */,
+				F95D5EF928756B39001D9560 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
