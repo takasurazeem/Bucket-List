@@ -9,9 +9,9 @@ import Foundation
 import CoreLocation
 
 struct Location: Identifiable, Codable, Equatable {
-    let id: UUID
-    let name: String
-    let description: String
+    var id: UUID
+    var name: String
+    var description: String
     let latitude: Double
     let longitude: Double
     
@@ -25,6 +25,6 @@ extension Location {
         CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
     }
     
-    static let example = Location(id: UUID(), name: "Holy Kaaba 🕋", description: "sacred house of Allah.", latitude: 21.4225, longitude: 39.8262)
+    static let example = Location(id: UUID(), name: "Holy Kaaba 🕋", description: "Sacred house of Allah.", latitude: 21.4225, longitude: 39.8262)
 
 }
