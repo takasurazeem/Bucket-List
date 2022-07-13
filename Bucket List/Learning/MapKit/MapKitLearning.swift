@@ -10,6 +10,12 @@ import SwiftUI
 
 struct MapKitLearning: View {
     
+    struct Location: Identifiable {
+        let id = UUID()
+        let name: String
+        let coordinate: CLLocationCoordinate2D
+    }
+    
     @State private var mapRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 33.6844, longitude: 73.0479), span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2))
     
     let locations = [
