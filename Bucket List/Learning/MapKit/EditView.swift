@@ -46,7 +46,7 @@ struct EditView: View {
                             Text(page.title)
                                 .font(.headline)
                             + Text(": ") +
-                            Text("Page description here")
+                            Text(page.description)
                                 .italic()
                         }
                     case .loaded:
@@ -90,7 +90,7 @@ struct EditView: View {
             let items = try JSONDecoder().decode(Result.self, from: data)
             
             // success - convert the array values to our pages array
-            pages = items.query.pages.values.sorted { $0.title < $1.title }
+            pages = items.query.pages.values.sorted()
         } catch {
             // if we're still here it means the request failed somehow
             loadingState = .failed
@@ -115,8 +115,16 @@ struct Query: Codable {
     let pages: [Int: Page]
 }
 
-struct Page: Codable {
+struct Page: Codable, Comparable {
     let pageid: Int
     let title: String
     let terms: [String: [String]]?
+    
+    var description: String {
+        terms?["description"]?.first ?? "No further information"
+    }
+    
+    static func <(lhs: Page, rhs: Page) -> Bool{
+        lhs.title < rhs.title
+    }
 }
