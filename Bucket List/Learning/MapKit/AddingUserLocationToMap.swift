@@ -9,17 +9,28 @@ import SwiftUI
 import MapKit
 
 struct AddingUserLocationToMap: View {
-
+    
     @State private var mapRegion = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 35.4902, longitude: 72.5796), span: MKCoordinateSpan(latitudeDelta: 25, longitudeDelta: 25))
     
     @State private var locations = [Location]()
-
+    
     var body: some View {
         ZStack {
             Map(coordinateRegion: $mapRegion, annotationItems: locations) { location in
-                MapMarker(coordinate: location.coordinate)
+                MapAnnotation(coordinate: location.coordinate) {
+                    VStack {
+                        Image(systemName: "star.circle")
+                            .resizable()
+                            .foregroundColor(.yellow)
+                            .frame(width: 44, height: 44)
+                            .background(.white)
+                            .clipShape(Circle())
+                        
+                        Text(location.name)
+                    }
+                }
             }
-                .ignoresSafeArea()
+            .ignoresSafeArea()
             Circle()
                 .fill(.blue)
                 .opacity(0.3)
