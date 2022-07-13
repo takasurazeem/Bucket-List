@@ -21,6 +21,7 @@
 		F95D5EFE28757039001D9560 /* DocumentsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D5EFD28757039001D9560 /* DocumentsContentView.swift */; };
 		F9DCC045287EC3560091F1BE /* MapKitLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC044287EC3560091F1BE /* MapKitLearning.swift */; };
 		F9DCC047287EC4F00091F1BE /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC046287EC4F00091F1BE /* Location.swift */; };
+		F9DCC04A287EC82D0091F1BE /* BioMetricLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC049287EC82D0091F1BE /* BioMetricLearning.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		F95D5EFD28757039001D9560 /* DocumentsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsContentView.swift; sourceTree = "<group>"; };
 		F9DCC044287EC3560091F1BE /* MapKitLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitLearning.swift; sourceTree = "<group>"; };
 		F9DCC046287EC4F00091F1BE /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		F9DCC049287EC82D0091F1BE /* BioMetricLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioMetricLearning.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +165,7 @@
 		F95D5EF728756B2D001D9560 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				F9DCC048287EC81D0091F1BE /* BioMetric-Learning */,
 				F9DCC043287EC3470091F1BE /* MapKit */,
 				F9408B74287770DB00147FAB /* SwitchingViewState */,
 				F95D5EFC2875702A001D9560 /* Documents */,
@@ -186,6 +189,14 @@
 				F9DCC046287EC4F00091F1BE /* Location.swift */,
 			);
 			path = MapKit;
+			sourceTree = "<group>";
+		};
+		F9DCC048287EC81D0091F1BE /* BioMetric-Learning */ = {
+			isa = PBXGroup;
+			children = (
+				F9DCC049287EC82D0091F1BE /* BioMetricLearning.swift */,
+			);
+			path = "BioMetric-Learning";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +331,7 @@
 			files = (
 				F95D5ECF28756AEB001D9560 /* UserContentView.swift in Sources */,
 				F95D5ECD28756AEB001D9560 /* Bucket_ListApp.swift in Sources */,
+				F9DCC04A287EC82D0091F1BE /* BioMetricLearning.swift in Sources */,
 				F95D5EFB28757008001D9560 /* ContentView.swift in Sources */,
 				F9408B76287770E800147FAB /* SwitchingViewStateContentView.swift in Sources */,
 				F9DCC047287EC4F00091F1BE /* Location.swift in Sources */,
@@ -487,6 +499,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Bucket List/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -515,6 +528,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Bucket List/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
