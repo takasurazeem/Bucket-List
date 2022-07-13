@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F9408B732877701800147FAB /* FileManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9408B722877701800147FAB /* FileManager+Extension.swift */; };
+		F9408B76287770E800147FAB /* SwitchingViewStateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9408B75287770E800147FAB /* SwitchingViewStateContentView.swift */; };
 		F95D5ECD28756AEB001D9560 /* Bucket_ListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D5ECC28756AEB001D9560 /* Bucket_ListApp.swift */; };
 		F95D5ECF28756AEB001D9560 /* UserContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D5ECE28756AEB001D9560 /* UserContentView.swift */; };
 		F95D5ED128756AEC001D9560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F95D5ED028756AEC001D9560 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		F9408B722877701800147FAB /* FileManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Extension.swift"; sourceTree = "<group>"; };
+		F9408B75287770E800147FAB /* SwitchingViewStateContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchingViewStateContentView.swift; sourceTree = "<group>"; };
 		F95D5EC928756AEB001D9560 /* Bucket List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bucket List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95D5ECC28756AEB001D9560 /* Bucket_ListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket_ListApp.swift; sourceTree = "<group>"; };
 		F95D5ECE28756AEB001D9560 /* UserContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F9408B74287770DB00147FAB /* SwitchingViewState */ = {
+			isa = PBXGroup;
+			children = (
+				F9408B75287770E800147FAB /* SwitchingViewStateContentView.swift */,
+			);
+			path = SwitchingViewState;
+			sourceTree = "<group>";
+		};
 		F95D5EC028756AEB001D9560 = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +159,7 @@
 		F95D5EF728756B2D001D9560 /* Learning */ = {
 			isa = PBXGroup;
 			children = (
+				F9408B74287770DB00147FAB /* SwitchingViewState */,
 				F95D5EFC2875702A001D9560 /* Documents */,
 				F95D5EF628756B25001D9560 /* Comparable */,
 			);
@@ -296,6 +307,7 @@
 				F95D5ECF28756AEB001D9560 /* UserContentView.swift in Sources */,
 				F95D5ECD28756AEB001D9560 /* Bucket_ListApp.swift in Sources */,
 				F95D5EFB28757008001D9560 /* ContentView.swift in Sources */,
+				F9408B76287770E800147FAB /* SwitchingViewStateContentView.swift in Sources */,
 				F95D5EF928756B39001D9560 /* User.swift in Sources */,
 				F95D5EFE28757039001D9560 /* DocumentsContentView.swift in Sources */,
 				F9408B732877701800147FAB /* FileManager+Extension.swift in Sources */,
