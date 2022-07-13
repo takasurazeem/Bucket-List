@@ -12,7 +12,7 @@ struct DocumentsContentView: View {
         Text("Hello World")
             .onTapGesture {
                 let str = "Test Message"
-                let url = FileManager.default.documentsDirectory.appendingPathComponent("message.txt")
+                let url = FileManager.documentsDirectory.appendingPathComponent("message.txt")
 
                 do {
                     try str.write(to: url, atomically: true, encoding: .utf8)

@@ -17,13 +17,13 @@
 		F95D5EE828756AEC001D9560 /* Bucket_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D5EE728756AEC001D9560 /* Bucket_ListUITests.swift */; };
 		F95D5EEA28756AEC001D9560 /* Bucket_ListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D5EE928756AEC001D9560 /* Bucket_ListUITestsLaunchTests.swift */; };
 		F95D5EF928756B39001D9560 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D5EF828756B39001D9560 /* User.swift */; };
-		F95D5EFB28757008001D9560 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D5EFA28757008001D9560 /* ContentView.swift */; };
 		F95D5EFE28757039001D9560 /* DocumentsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D5EFD28757039001D9560 /* DocumentsContentView.swift */; };
 		F9DCC045287EC3560091F1BE /* MapKitLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC044287EC3560091F1BE /* MapKitLearning.swift */; };
 		F9DCC047287EC4F00091F1BE /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC046287EC4F00091F1BE /* Location.swift */; };
 		F9DCC04A287EC82D0091F1BE /* BioMetricLearning.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC049287EC82D0091F1BE /* BioMetricLearning.swift */; };
-		F9DCC04C287ED0770091F1BE /* AddingUserLocationToMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC04B287ED0770091F1BE /* AddingUserLocationToMap.swift */; };
+		F9DCC04C287ED0770091F1BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC04B287ED0770091F1BE /* ContentView.swift */; };
 		F9DCC04E287EE7280091F1BE /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC04D287EE7280091F1BE /* EditView.swift */; };
+		F9DCC050287F002A0091F1BE /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC04F287F002A0091F1BE /* ContentView-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,13 +57,13 @@
 		F95D5EE728756AEC001D9560 /* Bucket_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket_ListUITests.swift; sourceTree = "<group>"; };
 		F95D5EE928756AEC001D9560 /* Bucket_ListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket_ListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F95D5EF828756B39001D9560 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		F95D5EFA28757008001D9560 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F95D5EFD28757039001D9560 /* DocumentsContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsContentView.swift; sourceTree = "<group>"; };
 		F9DCC044287EC3560091F1BE /* MapKitLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitLearning.swift; sourceTree = "<group>"; };
 		F9DCC046287EC4F00091F1BE /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		F9DCC049287EC82D0091F1BE /* BioMetricLearning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioMetricLearning.swift; sourceTree = "<group>"; };
-		F9DCC04B287ED0770091F1BE /* AddingUserLocationToMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingUserLocationToMap.swift; sourceTree = "<group>"; };
+		F9DCC04B287ED0770091F1BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F9DCC04D287EE7280091F1BE /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		F9DCC04F287F002A0091F1BE /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +124,10 @@
 			children = (
 				F95D5EF728756B2D001D9560 /* Learning */,
 				F95D5ECC28756AEB001D9560 /* Bucket_ListApp.swift */,
-				F95D5EFA28757008001D9560 /* ContentView.swift */,
+				F9DCC046287EC4F00091F1BE /* Location.swift */,
+				F9DCC04B287ED0770091F1BE /* ContentView.swift */,
+				F9DCC04F287F002A0091F1BE /* ContentView-ViewModel.swift */,
+				F9DCC04D287EE7280091F1BE /* EditView.swift */,
 				F95D5ED028756AEC001D9560 /* Assets.xcassets */,
 				F95D5ED228756AEC001D9560 /* Preview Content */,
 			);
@@ -190,9 +193,6 @@
 			isa = PBXGroup;
 			children = (
 				F9DCC044287EC3560091F1BE /* MapKitLearning.swift */,
-				F9DCC046287EC4F00091F1BE /* Location.swift */,
-				F9DCC04B287ED0770091F1BE /* AddingUserLocationToMap.swift */,
-				F9DCC04D287EE7280091F1BE /* EditView.swift */,
 			);
 			path = MapKit;
 			sourceTree = "<group>";
@@ -336,13 +336,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F95D5ECF28756AEB001D9560 /* UserContentView.swift in Sources */,
+				F9DCC050287F002A0091F1BE /* ContentView-ViewModel.swift in Sources */,
 				F95D5ECD28756AEB001D9560 /* Bucket_ListApp.swift in Sources */,
 				F9DCC04E287EE7280091F1BE /* EditView.swift in Sources */,
 				F9DCC04A287EC82D0091F1BE /* BioMetricLearning.swift in Sources */,
-				F95D5EFB28757008001D9560 /* ContentView.swift in Sources */,
 				F9408B76287770E800147FAB /* SwitchingViewStateContentView.swift in Sources */,
 				F9DCC047287EC4F00091F1BE /* Location.swift in Sources */,
-				F9DCC04C287ED0770091F1BE /* AddingUserLocationToMap.swift in Sources */,
+				F9DCC04C287ED0770091F1BE /* ContentView.swift in Sources */,
 				F95D5EF928756B39001D9560 /* User.swift in Sources */,
 				F9DCC045287EC3560091F1BE /* MapKitLearning.swift in Sources */,
 				F95D5EFE28757039001D9560 /* DocumentsContentView.swift in Sources */,
