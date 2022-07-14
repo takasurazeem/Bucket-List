@@ -71,6 +71,9 @@ struct ContentView: View {
                 viewModel.update(location: $0)
             }
         }
+        .alert(viewModel.biometricFailureMessage, isPresented: $viewModel.biometricFailed) {
+            Button("OK", role: .cancel) { }
+        }
     }
 }
 
