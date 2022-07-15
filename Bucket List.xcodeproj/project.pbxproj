@@ -24,6 +24,7 @@
 		F9DCC04C287ED0770091F1BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC04B287ED0770091F1BE /* ContentView.swift */; };
 		F9DCC04E287EE7280091F1BE /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC04D287EE7280091F1BE /* EditView.swift */; };
 		F9DCC050287F002A0091F1BE /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC04F287F002A0091F1BE /* ContentView-ViewModel.swift */; };
+		F9DCC052288054220091F1BE /* EditView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DCC051288054220091F1BE /* EditView-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		F9DCC04B287ED0770091F1BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F9DCC04D287EE7280091F1BE /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		F9DCC04F287F002A0091F1BE /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
+		F9DCC051288054220091F1BE /* EditView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EditView-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				F9DCC04B287ED0770091F1BE /* ContentView.swift */,
 				F9DCC04F287F002A0091F1BE /* ContentView-ViewModel.swift */,
 				F9DCC04D287EE7280091F1BE /* EditView.swift */,
+				F9DCC051288054220091F1BE /* EditView-ViewModel.swift */,
 				F95D5ED028756AEC001D9560 /* Assets.xcassets */,
 				F95D5ED228756AEC001D9560 /* Preview Content */,
 			);
@@ -344,6 +347,7 @@
 				F9DCC047287EC4F00091F1BE /* Location.swift in Sources */,
 				F9DCC04C287ED0770091F1BE /* ContentView.swift in Sources */,
 				F95D5EF928756B39001D9560 /* User.swift in Sources */,
+				F9DCC052288054220091F1BE /* EditView-ViewModel.swift in Sources */,
 				F9DCC045287EC3560091F1BE /* MapKitLearning.swift in Sources */,
 				F95D5EFE28757039001D9560 /* DocumentsContentView.swift in Sources */,
 				F9408B732877701800147FAB /* FileManager+Extension.swift in Sources */,
